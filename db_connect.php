@@ -1,8 +1,8 @@
 <?php
 $host = 'localhost';
 $dbname = 'db_kampus';
-$username = 'root';
-$password = '';
+$username = 'user';
+$password = 'user';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
