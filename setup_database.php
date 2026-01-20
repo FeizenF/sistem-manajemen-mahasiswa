@@ -1,8 +1,8 @@
 <?php
 // setup_database.php
 $host = 'localhost';
-$username = 'root';
-$password = '';
+$username = 'user';
+$password = 'user';
 
 try {
     // Koneksi ke MySQL
